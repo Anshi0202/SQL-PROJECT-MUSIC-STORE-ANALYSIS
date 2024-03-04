@@ -5,3 +5,10 @@ Question 1
 
 query: -
 select * form employee order by levels desc limit 1;
+
+Question 2
+2. Which countries have the most Invoices?
+select sum(total), billing_country from invoice group by billing_country order by sum(total) desc limit 3;
+
+Question 3
+
