@@ -1,0 +1,7 @@
+--Query and questions
+SET 1 // EASY QUESTIONS //
+Question 1
+1. Who is the senior most employee based on job title?
+
+query: -
+select * form employee order by levels desc limit 1;
